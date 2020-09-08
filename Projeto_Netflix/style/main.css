@@ -1,0 +1,207 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* Elementos base */
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 30px; 
+}
+
+header nav a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Filme Principal*/
+
+div.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('../img/capa.jpg');
+    background-position: 50%;
+    background-size: cover;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: -30px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.filme-principal .titulo {
+    width: 300px;
+    margin-top:5px;
+}
+
+.botoes a .botao {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 3px;
+}
+
+#vermelho{
+    background-color: rgb(148, 0, 0);
+}
+
+#vermelho:hover {
+    background-color: white;
+    color:black;
+}
+
+.botoes a .botao:hover {
+    background-color: white;
+    color:black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 40%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+/*  */
+
+.modal {
+    position: fixed;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    width: 45%;
+    height: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+.modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+  }
+.modal .youtube {
+    margin: 3%;
+    width: 94%;
+    height: 90%;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #8d0000;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #000000;
+    text-decoration:none;
+    font-weight: bolder;
+  }
+
+#abrirModal2 {
+    background-color: rgba(0,0,0,.95);
+    width: 45%;
+    height: 60%;
+    padding: 5%;
+}
+
+.modal img {
+    width: 50%;
+    margin-top: -5%;
+    margin-left: 25%;
+}
+
+.modal p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer#rodape {
+    clear:both;
+    margin-top: 5px;
+    margin-bottom: 1%;
+}
+
+footer#rodape p{
+    text-align: center;
+    font-size: 10pt;
+    color: #888888;
+}
+
+footer a{
+    color: #888888;
+    font-family: sans-serif;
+}

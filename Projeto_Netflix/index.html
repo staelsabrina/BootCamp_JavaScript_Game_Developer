@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+        <!--responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+        <!--owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        
+        <title>Gameflix</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">GAMEFLIX</h2>
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Minha Lista</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <img class="titulo" src="img/logores.png">
+                    <p class="descricao">Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou, Raccoon City, em que a Umbrella Corporation reúne suas forças para um ataque final contra os remanescentes do apocalipse. Para vencer a dura batalha final e salvar a raça humana, a heroína recruta velhos e novos amigos.</p>
+                    <div class="botoes">
+                        <a href="#abrirModal">
+                            <button role="button" class="botao" id="vermelho">                            
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                            </button>
+                        </a>
+                        <a href="#abrirModal2">
+                            <button role="button" class="botao">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </main>
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.facebook.com/fantasydub/videos/917640221742649/" target="_blank"><img class="bos-filme" src="img/mini1.jpg" alt="Imagem filme Final Fantasy Advent Children"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/title/80189685" target="_blank"><img class="bos-filme" src="img/mini2.jpg" alt="Imagem série The Witcher"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/title/80095241" target="_blank"><img class="bos-filme" src="img/mini3.jpg" alt="Imagem animação Castlevania"></a>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/8W4G_APk63E" target="_blank"><img class="bos-filme" src="img/mini4.jpg" alt="Imagem filme Street Fighter"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=oXBdnuB7bGw" target="_blank"><img class="bos-filme" src="img/mini5.jpg" alt="Imagem filme Mortal Kombat"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=hgaFYv3v7-Y" target="_blank"><img class="bos-filme" src="img/mini6.jpg" alt="Imagem filme Silent Hill"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/title/80209042" target="_blank"><img class="bos-filme" src="img/mini7.jpg" alt="Imagem filme Tomb Raider"></a>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/Dqvz8w-latE" target="_blank"><img class="bos-filme" src="img/mini8.jpg" alt="Imagem filme Warcraft"></a>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/eCnw18_rboc" target="_blank"><img class="bos-filme" src="img/mini9.jpg" alt="Imagem animação Angry Birds 2"></a>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/zQEjE_M2Esw" target="_blank"><img class="bos-filme" src="img/mini10.jpg" alt="Imagem filme Sonic"></a>
+                </div>
+            </div>
+        </div>
+
+        <!--JS-->
+        <script src="https://kit.fontawesome.com/dc7e51539b.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/setup.js"></script>
+
+        <!--Modal Assistir e Mais informações-->
+        <div id="abrirModal" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">X</a>
+            <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/79Sd4GtOXuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal2" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+                <img src="img/logores.png">
+                <h3>Elenco: </h3>
+                <p>Milla Jovovich, Iain Glen, Ali Larter, Shawn Roberts</p>
+                <h3>Ficha Técnica: </h3>
+                <p>Gênero: Ação, Terror, Ficção Científica.</p>
+                <p>Data de lançamento: 26 de janeiro de 2017 (Brasil)</p>
+                <p>Direção: Paul W. S. Anderson</p>
+                <p>Bilheteria: 312,2 milhões USD</p>
+                <p>Orçamento: 40 milhões USD</p>
+                <p>Música composta por: Paul Haslinger</p>
+        </div>
+        <footer id="rodape">
+            <p>Copyright &copy; 2020 - by Stael Sabrina<br></p>
+            <p><a href="http://www.linkedin.com/in/staelsabrina" target="_blank">LinkedIn</a> | <a href="http://www.github.com/staelsabrina" target="_blank">GitHub</a></p>
+        </footer>
+    </body>
+</html>
