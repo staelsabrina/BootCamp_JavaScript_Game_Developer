@@ -4,8 +4,8 @@ Alterações:
 Alterei o a altura da div fundoGame, para ficar mais confortável dentro do navegador.
 Adicionei botão de inicio para começar o jogo e alterei o onclick para funcionar somente no botão.
 
-<a href="#">Acesse meu projeto</a><br>
-<a href="#">Certificado</a>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Game_Naves/index.html">Acesse meu projeto</a><br>
+<a href="https://certificates.digitalinnovation.one/41BB08F5">Certificado</a>
 
 -------------------------------------------------------------------
 
