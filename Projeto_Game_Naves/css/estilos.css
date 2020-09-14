@@ -13,8 +13,13 @@ body {
     background-image: url('../imgs/fundo.jpg');
 }
 
+#inicio p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .iniciar {
     background-color: #603A03;
+    color: #1f1f1f;
     font-family: 'titulo';
     padding: 8px 5px 5px 5px;
 }
