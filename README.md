@@ -6,7 +6,7 @@ Repositório com os exercícios e projetos do BootCamp de JavaScript Game Develo
 
 Conteúdo do Bootcamp:
 
-BOOTCAMP JAVASCRYPT GAME DEVELOPER 
+BOOTCAMP JAVASCRIPT GAME DEVELOPER 
 
 -----------------------------------------------------------------------
 
@@ -55,6 +55,7 @@ Recriando a página inicial do Instagram
 Página de login do Instagram: nesse projeto, será abordado o conceito sobre CSS Flexbox e responsividade, preparando os alunos para as aulas de jogos, nas quais será utilizado o CSS junto ao JavaScript para estilização e posicionamento.
 
 <a href="https://certificates.digitalinnovation.one/F81BEDF8">Certificado<a>
+<h href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/ProjetoPaginaInicialdoInstagram/index.html">Página do Projeto</a>
 
 -----------------------------------------------------------------------
 
@@ -88,6 +89,7 @@ Recriando a Interface do Netflix
 Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
 
 <a href="https://certificates.digitalinnovation.one/1EAB273F">Certificado<a>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Netflix/index.html">Página do Projeto</a>
 
 -----------------------------------------------------------------------
 
