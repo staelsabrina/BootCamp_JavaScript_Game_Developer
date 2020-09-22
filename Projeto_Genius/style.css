@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: rgb(14, 107, 150);
+}
+
+h1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    text-align: center;
+    padding: 0;
+}
+
+.main-game {
+    height: 100vh; /*tamanho em VH é o tamanho visível no navegador*/
+    width: 100vw;  /*largura visível no navegador*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid; /*Precisa ser dividido em 4, por isso vamos utilizar o grid*/
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;/*grid gap é o espaço entre cada área do grid*/
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.blue {
+    grid-area: azul; /*local onde foi setado no grid template area*/
+    background-color: rgb(27, 27, 119);
+    border-bottom-right-radius: 100%; /*arredonda apenas o lado inferior direita do azul*/
+}
+
+.red {
+    grid-area: vermelho; /*local onde foi setado no grid template area*/
+    background-color: red;
+    border-top-right-radius: 100%; /*arredonda lado superior direito*/
+}
+
+.yellow {
+    grid-area: amarelo; /*local onde foi setado no grid template area*/
+    background-color: yellow;
+    border-bottom-left-radius: 100%; /*arredonda lado inferior esquerdo*/
+}
+
+.green {
+    grid-area: verde; /*local onde foi setado no grid template area*/
+    background-color: green;
+    border-top-left-radius: 100%; /*arredonda lado superior esquerdo*/
+}
+
+.selected {
+    opacity: 0.4; /*quando a cor for selecionada no jogo, vai ficar com a opacidade 0.8 função chamada no JS*/
+}
+
+footer {
+    clear:both;
+    margin-top: -70px;
+    margin-bottom: 0px;;
+}
+
+footer p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10pt;
+    color: #000000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover {
+    color: #611639;
+    font-weight: bolder;
+    font-size: 15px;
+}
