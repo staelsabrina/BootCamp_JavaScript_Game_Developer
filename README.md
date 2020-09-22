@@ -113,7 +113,7 @@ Desmistificando map, filter e reduce
 
 Aprenda como e quando utilizar map, filter e reduce em JavaScript.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/77373356">Certificado</a>
 
 -----------------------------------------------------------------------
 
@@ -121,7 +121,7 @@ Fundamentos Aritméticos em JavaScript
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 
-certificado: 
+Desafio dentro do Site, sem certificado
 
 -----------------------------------------------------------------------
 
@@ -129,7 +129,7 @@ Criando seu jogo de memória estilo Genius
 
 Nesse projeto, o desafio será criar um jogo Gênesis utilizando apenas HTML, CSS e Javascript de forma introdutória, sendo o principal conceito, CSS Grid, manipulação de Array e Arrow Functions.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/48A4B1B2">Certificado</a>
 
 -----------------------------------------------------------------------
 
