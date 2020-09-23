@@ -54,7 +54,7 @@ Recriando a página inicial do Instagram
 
 Página de login do Instagram: nesse projeto, será abordado o conceito sobre CSS Flexbox e responsividade, preparando os alunos para as aulas de jogos, nas quais será utilizado o CSS junto ao JavaScript para estilização e posicionamento.
 
-<a href="https://certificates.digitalinnovation.one/F81BEDF8">Certificado</a>
+<a href="https://certificates.digitalinnovation.one/F81BEDF8">Certificado</a><br>
 <a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/ProjetoPaginaInicialdoInstagram/index.html">Página do Projeto</a>
 
 -----------------------------------------------------------------------
