@@ -129,7 +129,8 @@ Criando seu jogo de memória estilo Genius
 
 Nesse projeto, o desafio será criar um jogo Gênesis utilizando apenas HTML, CSS e Javascript de forma introdutória, sendo o principal conceito, CSS Grid, manipulação de Array e Arrow Functions.
 
-<a href="https://certificates.digitalinnovation.one/48A4B1B2">Certificado</a>
+<a href="https://certificates.digitalinnovation.one/48A4B1B2">Certificado</a><br>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Genius/index.html">Página do Projeto</a>
 
 -----------------------------------------------------------------------
 
@@ -137,7 +138,7 @@ Desenvolvimento avançado com JavaScript ES6
 
 Aprenda a trabalhar com a mais nova atualização da linguagem JavaScript, a ES6, desde seus fundamentos até as funções avançadas e novos conceitos aplicados.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/1C05E8BF">Certificado</a>
 
 -----------------------------------------------------------------------
 
