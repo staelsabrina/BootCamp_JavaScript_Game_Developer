@@ -155,7 +155,7 @@ Entendendo Promises de uma vez por todas
 
 Neste projeto prático vamos mergulhar fundo no padrão Promises e entender como funciona todo o fluxo assíncrono de funções em Javascript!
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/4D39269E">Certificado</a>
 
 -----------------------------------------------------------------------
 
