@@ -4,11 +4,9 @@ Repositório com os exercícios e projetos do BootCamp de JavaScript Game Develo
 
 
 
+BOOTCAMP JAVASCRIPT GAME DEVELOPER 
 Conteúdo do Bootcamp:
 
-BOOTCAMP JAVASCRIPT GAME DEVELOPER 
-
------------------------------------------------------------------------
 
 Bem-vindo à DIO
 
@@ -163,7 +161,7 @@ Como funciona o async/await
 
 As promises são um recurso importante do JavaScript que podem ser aplicadas de diversas formas. Aprenda sobre o que é e como utilizar as keywords async e await para otimizar o desenvolvimento de projetos.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/8724BD01">Certificado</a>
 
 -----------------------------------------------------------------------
 
