@@ -1,10 +1,11 @@
 Projeto Jogo da Memória com motivo de Super Mário realizado no Bootcamp JavaScript Game Developer da Digital Innovation One, professora Gabriela Pinheiro.
 
-Adicionei um background na bady, alterei as imagens para fundo transparente. Incluí um rodapé com meus contatos.
+Adicionei um background no body, alterei as imagens das cartas para fundo transparente e incluí um rodapé com meus contatos.
 
 Como jogar: escolha as cartas até encontrar duas iguais. Quando terminar o jogo, basta apertar f5 para reiniciar.
 
-<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Jogo_Memoria/index.html">Página do Projeto</a>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Jogo_Memoria/index.html">Página do Projeto</a><br>
+<a href="https://certificates.digitalinnovation.one/BF57E71D">Certificado</a>
 
 DESCRIÇÃO
 
