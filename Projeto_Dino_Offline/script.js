@@ -11,6 +11,16 @@ function handleKeyUp(event){  //verifica se o usuário apertou a tecla espaço
     }
 }
 
+//Função que cria um botão reiniciar no final do jogo.
+function createButton() {
+     var btn = document.createElement('BUTTON');
+     var lbl = document.createTextNode("Reiniciar");
+     btn.classList.add('botao');
+     btn.appendChild(lbl);   
+     btn.onclick = function() {window.location.reload()};     
+     document.body.appendChild(btn);    
+}
+
 //função de pulo
 function jump(){    
     isJumping = true; //dino está pulando
@@ -54,6 +64,7 @@ function createCactus() {
             //game over
             clearInterval(leftInterval);
             document.body.innerHTML = '<h1 class="game-over">Fim de Jogo!</h1>';
+            createButton(); //Cria o botão para reiniciar
         } else { //caso o cactus não tenha atingido a posição -60
             cactusPosition -= 10; //recebe -10 px
             cactus.style.left = cactusPosition + 'px';
