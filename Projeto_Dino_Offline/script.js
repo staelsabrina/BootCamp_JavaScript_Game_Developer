@@ -3,6 +3,16 @@ const background = document.querySelector('.background');
 let isJumping = false; //diz se o dino está pulando
 let position = 0; //posição inicial do dinossauro
 
+function createButton()
+{
+     var btn = document.createElement('BUTTON');
+     var lbl = document.createTextNode("Reiniciar");
+     btn.classList.add('botao');
+     btn.appendChild(lbl);   
+     btn.onclick = function() {window.location.reload()};     
+     document.body.appendChild(btn);    
+}
+
 function handleKeyUp(event){  //verifica se o usuário apertou a tecla espaço
     if(event.keyCode === 32){ //se a tecla pressionada foi espaço(keycode 32), então aciona função jump
         if(!isJumping){
@@ -54,6 +64,7 @@ function createCactus() {
             //game over
             clearInterval(leftInterval);
             document.body.innerHTML = '<h1 class="game-over">Fim de Jogo!</h1>';
+            createButton();            
         } else { //caso o cactus não tenha atingido a posição -60
             cactusPosition -= 10; //recebe -10 px
             cactus.style.left = cactusPosition + 'px';
