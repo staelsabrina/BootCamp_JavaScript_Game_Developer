@@ -11,9 +11,9 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: rgb(243,243,243);
-    margin: auto;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center; 
@@ -35,7 +35,7 @@ body {
 }
 
 .celular {
-    height: 50rem;
+    height: 100vh;
 }
 
 .instagram-continue {
@@ -75,7 +75,7 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 8rem;
 }
 
 .instagram-login {
@@ -116,17 +116,19 @@ body {
 }
 
 .app-download {
-    height: 3rem;
-    width: 10rem;
     background-size: cover;
 }
 
 .app-download:nth-child(1) {
     background-image: url('./img/apple-button.png');
+    height: 7vh;
+    width: 15vw;
 }
 
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
+    height: 7vh;
+    width: 15vw;
 }
 
 /* Media Queries*/
