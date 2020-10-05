@@ -179,7 +179,7 @@ Ordenação e Filtros em JavaScript
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 
-certificado:
+Desafio dentro do site, sem certificado
 
 -----------------------------------------------------------------------
 
@@ -187,7 +187,7 @@ Fundamentos de Arquitetura de Sistemas
 
 Aprenda nesse curso sobre como funcionam as arquiteturas de softwares, seus conceitos, aplicações e desenvolvimento de operações.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/C611DD89">Certificado</a><br>
 
 -----------------------------------------------------------------------
 
@@ -195,7 +195,7 @@ Introdução a Busca e Substituição em JavaScript
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 
-certificado:
+Desafio dentro do site, sem certificado
 
 -----------------------------------------------------------------------
 
@@ -203,7 +203,8 @@ Criando seu próprio jogo da velha com HTML e Javascript
 
 Neste projeto, vamos construir juntos um jogo da velha, utilizando somente HTML para estruturar nosso site, CSS para estilizar e dar vida a ele, e Javascript para criarmos toda suas interações, desde a escolha do jogador, efetivar uma jogada e dar um vencedor ao jogo. Vamos abordar conceitos básicos sobre as linguagens e como podemos criar projetos bem simples sem muito trabalho, apenas utilizando suas funções básicas e uma pouco de lógica!
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/D08E35D2">Certificado</a><br>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Jogo_Velha/">Página do Projeto</a>
 
 -----------------------------------------------------------------------
 
@@ -219,7 +220,7 @@ Solução de Problemas com JavaScript
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 
-certificado:
+Desafio dentro do site, sem certificado
 
 -----------------------------------------------------------------------
 
@@ -235,6 +236,6 @@ Resolvendo Algoritmos com JavaScript
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 
-certificado: 
+Desafio dentro do site, sem certificado
 
 -----------------------------------------------------------------------
