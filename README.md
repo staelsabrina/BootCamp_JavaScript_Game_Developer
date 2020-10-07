@@ -213,7 +213,7 @@ Projetos ágeis com SCRUM
 
 SCRUM é um framework utilizado no gerenciamento ágil de projetos de software. Esse curso ensinará os fundamentos e práticas da metodologia.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/21DE5562">Certificado</a>
 
 -----------------------------------------------------------------------
 
