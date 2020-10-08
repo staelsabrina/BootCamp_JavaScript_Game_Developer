@@ -4,7 +4,10 @@ Repositório com os exercícios e projetos do BootCamp de JavaScript Game Develo
 
 
 
-BOOTCAMP JAVASCRIPT GAME DEVELOPER 
+BOOTCAMP JAVASCRIPT GAME DEVELOPER - 108h
+
+<a href="https://certificates.digitalinnovation.one/F683C4C7">Certificado de Conclusão do Bootcamp</a>
+
 Conteúdo do Bootcamp:
 
 
@@ -229,7 +232,8 @@ Criando seu jogo no estilo Space Shooter
 
 Nesse projeto, o desafio será criar um Space Shooter utilizando HTML, CSS e Javascript. Aprenderemos juntos a trabalhar com posicionamento no CSS e lógica de programação utilizando posicionamento com CSS, manipulação do DOM, eventListeners, e manipulação de Array.
 
-certificado:
+<a href="https://certificates.digitalinnovation.one/7B838DB8">Certificado</a><br>
+<a href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Space_Shooter/index.html">Página do Projeto</a>
 
 -----------------------------------------------------------------------
 
