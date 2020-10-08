@@ -8,7 +8,9 @@ BOOTCAMP JAVASCRIPT GAME DEVELOPER - 108h
 
 <a href="https://certificates.digitalinnovation.one/F683C4C7">Certificado de Conclusão do Bootcamp</a>
 
-Conteúdo do Bootcamp:
+-----------------------------------------------------------------------
+
+Conteúdo:
 
 
 Bem-vindo à DIO
