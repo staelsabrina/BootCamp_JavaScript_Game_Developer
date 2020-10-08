@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'sig';
+    src: url(font/modernline.otf);
+}
+
+@font-face{
+    font-family: 'start';
+    src: url(font/space.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(img/background.png);
+    background-size: cover;
+}
+
+#main-play-area {
+    height: 600px;
+    width: 600px;
+}
+
+.game-instructions {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 0px;
+    font-family: 'start';
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50px;
+    cursor: pointer;
+    font-family: 'start';
+}
+
+#score {
+    position: relative;
+    color: white;
+    left: 1rem;
+    top: -20px;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px;
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(59, 59, 59);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+#sig {
+    font-family: 'sig';
+}

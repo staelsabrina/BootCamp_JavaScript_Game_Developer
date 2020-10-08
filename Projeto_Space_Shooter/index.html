@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-play-area">
+        <h5 id="score"></h5>
+        <img class="player-shooter" src="img/hero.png" alt="hero">
+        <h4 class="game-instructions">
+            Não deixe os inimigos invadirem o seu planeta!<br>
+            use UP e DOWN para movimentar, barra de espaço para atirar.
+        </h4>
+        <div class="start-button">
+            <h1>START</h1>
+        </div>
+    </div>
+    <footer>
+        <p><strong id="sig">Stael Sabrina</strong><br>
+        <a href="http://www.linkedin.com/in/staelsabrina" target="_blank">LinkedIn</a> | <a href="http://www.github.com/staelsabrina" target="_blank">GitHub</a></p>
+        </footer>
+
+    <!-- Sons do jogo !-->
+    <audio src="sons/disparo.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/fundo.mp3" preload="auto" id="somFundo"></audio>
+    <audio src="sons/start-over.mp3" preload="auto" class="somStart" id="somGameover"></audio>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
