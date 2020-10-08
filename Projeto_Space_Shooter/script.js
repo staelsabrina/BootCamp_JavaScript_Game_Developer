@@ -16,6 +16,7 @@ var somStart = document.getElementsByClassName('somStart')[0];
 somStart.addEventListener("ended", function(){ somStart.currentTime = 0; somStart.play();}, false);
 somStart.play();
 
+
 //Função que cria os movimentos da nave: Sobe/Desce/Tiro.
 function flyShip(event){
     if(event.key === 'ArrowUp'){
